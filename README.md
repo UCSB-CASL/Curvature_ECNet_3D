@@ -34,7 +34,7 @@ subdirectory with different experiment IDs.  You can test any of the trained neu
 will collect the results from executing [`python/evaluating.py`](python/evaluating.py) in the [`results/`](results) directory 
 
 **Note**: these data sets include *6 samples per interface node*.  For non-saddle samples, we have already applied negative-mean-curvature
-normalization but left their curvature data (i.e., `hk` ($h\kappa^*$), `ihk` ($h\kappa$), `h2kg` ($h^2\kappa_G^*$), and `ih2kg` ($h^2\kappa_G$)) 
+normalization but left their curvature data (i.e., `hk` ($h\kappa^\ast$), `ihk` ($h\kappa$), `h2kg` ($h^2\kappa_G^\ast$), and `ih2kg` ($h^2\kappa_G$)) 
 with the sign intact so we can recover the right answer after computing $h\kappa_\mathcal{F}$.  When testing, you might get marginally 
 different results than those reported in our paper.  This is because we took the results in the paper from the online inference computations 
 performed in C++, where small floating-point variations are possible.
