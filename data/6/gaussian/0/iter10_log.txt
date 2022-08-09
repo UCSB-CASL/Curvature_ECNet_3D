@@ -1,0 +1,26 @@
+Friday, May 27, 2022.
+For two networks with -7e-6 as non-saddle sample lowerbound.
+Using 6 data-packet permutations.
+
+/usr/local/Cellar/mpich/3.4.1_1/bin/mpiexec.hydra -n 3 ./ml_curvature -outDir /Volumes/YoungMinEXT/k_ecnet_3d -nnetsDir /Users/youngmin/k_nnets
+[WARNING]: option 'nnetsDir' does not exists in the database -- ignoring.
+ -------------------== CASL Options Database ==------------------- 
+ List of entered options:
+
+  -outDir /Volumes/YoungMinEXT/k_ecnet_3d
+ ----------------------------------------------------------------- 
+Rank 0 successfully created params file '/Volumes/YoungMinEXT/k_ecnet_3d/6/gaussian/0/iter10_params.csv'
+Rank 0 successfully created samples file '/Volumes/YoungMinEXT/k_ecnet_3d/6/gaussian/0/iter10_data.csv'
+>> Began generating Gaussian data set for offline evaluation with a = 1., su^2 = 0.130208, sv^2 = 0.0144676, max |hk| = 0.6, and h = 0.015625 (level 6)
+   Collected and saved 108000 samples (incl. the six permutations) with the following stats:
+   - Number of saddle points   = 14107
+   - Tracked mean |hk*| in the range of [1.89171e-07, 0.587298]
+   - Tracked max hk error      = 0.188631
+   - Tracked max h^2kg error   = 0.0481826
+   - Tracked max |phi error|/h = 0.081521
+<< Finished after 30.73 secs.
+
+Process finished with exit code 0
+
+
+

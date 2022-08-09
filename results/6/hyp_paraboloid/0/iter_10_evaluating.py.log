@@ -1,0 +1,13 @@
+2022-08-09 11:28:17,436 [INFO ]  ------------- Evaluating hyp_paraboloid, experiment id 0 -------------
+2022-08-09 11:28:17,436 [INFO ]  * MaxRefLevel: 6
+2022-08-09 11:28:17,436 [INFO ]  * Sampled points: 6608
+2022-08-09 11:28:17,436 [INFO ]  * Parameters:
+2022-08-09 11:28:17,436 [INFO ]    a: 33.6
+2022-08-09 11:28:17,436 [INFO ]    b: 11.2
+2022-08-09 11:28:17,437 [INFO ]    hk: 0.35
+2022-08-09 11:28:17,437 [INFO ]  ------------------------------------------------------------------
+2022-08-09 11:28:17,506 [WARNI]  No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2022-08-09 11:28:17,547 [WARNI]  No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2022-08-09 11:28:19,802 [INFO ]    Method                     | Mean Absolute Error   | Max Absolute Error    | Root Mean Sqrd Error
+2022-08-09 11:28:19,803 [INFO ]  * Neural model on iter10     |     4.5408494771e-04  |     6.5828934312e-03  |     7.1767577901e-04
+2022-08-09 11:28:20,925 [INFO ]  * Numerical method on iter10 |     2.1679857746e-03  |     1.7207081616e-01  |     9.1525912285e-03

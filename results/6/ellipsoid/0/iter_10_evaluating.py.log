@@ -1,0 +1,17 @@
+2022-08-09 11:24:13,819 [INFO ]  ------------- Evaluating ellipsoid , experiment id 0 -------------
+2022-08-09 11:24:13,819 [INFO ]  * MaxRefLevel: 6
+2022-08-09 11:24:13,819 [INFO ]  * Sampled points: 62131
+2022-08-09 11:24:13,819 [INFO ]  * Parameters:
+2022-08-09 11:24:13,826 [INFO ]    a: 1.65
+2022-08-09 11:24:13,827 [INFO ]    b: 0.75
+2022-08-09 11:24:13,827 [INFO ]    c: 0.2
+2022-08-09 11:24:13,827 [INFO ]    hka: 0.345182291666667
+2022-08-09 11:24:13,827 [INFO ]    hkb: 0.148636578856749
+2022-08-09 11:24:13,827 [INFO ]    hkc: 0.0033516988062442
+2022-08-09 11:24:13,827 [INFO ]  ------------------------------------------------------------------
+2022-08-09 11:24:14,062 [WARNI]  No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2022-08-09 11:24:14,106 [WARNI]  No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2022-08-09 11:24:14,113 [WARNI]  ++ There are no saddle samples!
+2022-08-09 11:24:22,042 [INFO ]    Method                     | Mean Absolute Error   | Max Absolute Error    | Root Mean Sqrd Error
+2022-08-09 11:24:22,042 [INFO ]  * Neural model on iter10     |     1.2291129678e-04  |     8.5978507996e-03  |     3.0126541969e-04
+2022-08-09 11:24:26,171 [INFO ]  * Numerical method on iter10 |     1.1971966596e-03  |     7.4813604355e-02  |     4.6988306567e-03
