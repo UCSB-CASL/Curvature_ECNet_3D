@@ -90,7 +90,7 @@ def evaluate( shapeType: str, experimentId: int, reinitIter: int, useNnet: bool=
 	# Read in parameters and samples.
 	prefix = "iter" + str( reinitIter )
 	params: pd.DataFrame = pd.read_csv( DATA_ROOT + prefix + "_params.csv" )
-	data: np.ndarray = pd.read_csv( DATA_ROOT + prefix + "_data.csv" ).to_numpy( np.float32 )
+	data: np.ndarray = pd.read_csv( DATA_ROOT + prefix + "_data.csv.bz2", compression="bz2" ).to_numpy( np.float32 )
 
 	if len( data ) % N_PERMUTS != 0 or len( data ) == 0:
 		raise "Number of samples must be a multiple of {}.".format( N_PERMUTS )

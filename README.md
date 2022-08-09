@@ -28,7 +28,7 @@ The `"output"` key refers to the last hidden layer.  It does not include the adi
 
 ### Testing data sets
 
-We have included sample surface data under the [`data/`](data) folder for the grid resolution with $η = 6$.  Each interface has its own 
+We have included sample surface data under the [`data/`](data) folder for the grid resolution with $\eta = 6$.  Each interface has its own 
 subdirectory with different experiment IDs.  You can test any of the trained neural networks on this data.  See the 
 [`python/evaluating.py`](python/evaluating.py) script.  To try different experiments, see the multiline strings prefixed with `TODO:`.  You
 will collect the results from executing [`python/evaluating.py`](python/evaluating.py) in the [`results/`](results) directory 
