@@ -8,7 +8,7 @@ _Computer Science and Mechanical Engineering Departments, [University of Califor
 ***
 
 This is the accompanying repository for our paper
-["Machine learning algorithms for three-dimensional mean-curvature computation in the level-set method"](https://arxiv.org/abs/2201.12342).  
+["Machine learning algorithms for three-dimensional mean-curvature computation in the level-set method"](https://arxiv.org/abs/2208.09047).  
 You may also check out the [preceding paper](https://arxiv.org/abs/2201.12342) and its [GitHub repository](https://github.com/UCSB-CASL/Curvature_ECNet_2D) 
 for the two-dimensional case.  
 
